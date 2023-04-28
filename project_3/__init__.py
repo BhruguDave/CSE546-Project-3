@@ -101,7 +101,7 @@ def download_from_s3(file_path, bucket_name, key):
 def poll_from_response_queue():
     print("POLLING FROM RESPONSE QUEUE")
     empty_response_counter = 0
-    while empty_response_counter < 10:
+    while empty_response_counter < 3:
         messages = poll_from_sqs(response_queue_url)
         if len(messages) == 0:
             print("NOTHING TO POLL FROM RESPONSE QUEUE")
