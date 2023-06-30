@@ -8,11 +8,6 @@
 - cse-546-ec3-input-bucket
 - cse-546-ec3-output-bucket
 
-## AWS credentials
-- aws_access_key_id: AKIAR2HFOCTI6ZV5AV7L
-- aws_secret_access_key: 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
-- region: us-east-1
-
 ## SQS Queues
 - ec3_openstack_request_queue
 - ec3_openstack_response_queue
